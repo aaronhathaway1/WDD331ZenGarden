@@ -1,7 +1,7 @@
+@use './variables' as *; //variables are now global, and don't require anything in front.
 @use 'atoms';  // assumes file is named _atoms.scss
-@use 'molecules';
-@use 'organisms' as o;  // can shorten the name if we like :)s
-@use 'variables' as *; //variables are now global, and don't require anything in front.
+//@use 'molecules';
+//@use 'organisms' as o;  // can shorten the name if we like :)s
 
 .paper-background-color{
     background-color: $primary;
