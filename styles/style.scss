@@ -1,7 +1,49 @@
-@use './variables' as *; //variables are now global, and don't require anything in front.
-@use 'atoms';  // assumes file is named _atoms.scss
+@import './variables'; //variables are now global, and don't require anything in front.
+@import 'atoms';  // assumes file is named _atoms.scss
 //@use 'molecules';
 //@use 'organisms' as o;  // can shorten the name if we like :)s
+
+*{
+    box-sizing: border-box;
+}
+html{
+    width:100%;
+}
+body{
+    width: 80%;
+    margin:auto;
+    background-image: url("./Wood\ Background.jpg");
+}
+main{
+    background-color:white;
+    widows: 80%;
+    padding:0.5em;
+    margin:auto;
+}
+
+
+.color-chart{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.color-chart > div{
+    margin:0;
+    padding:auto;
+    width: 25%;
+    height: 3em;
+
+}
+.headings-example{
+    font-family: $headerFont;
+}
+.body-example{
+    font-family: $bodyFont;
+}
+.sticky-example{
+    font-family: $stickyFont;
+}
 
 .paper-background-color{
     background-color: $primary;
