@@ -5,21 +5,54 @@
     text-decoration: underline;
 }
 
-h1{
-    font-size:2.5 em;
+@mixin body-text () {
+    color: $pencilColor;
+    font-family: $bodyFont;
+    font-weight: $fontWeight;
+    font-size: $regular-font-size;
 }
+
+h1{
+    font-size: $h1-size;
+}
+
 h3, h4{
     @include set-font-weight(300);
 }
+
 p{
     margin:0;
     padding:.5em;
     line-height:1.6;
+    font-size: $regular-font-size;
 }
 
 a{
     text-decoration: none;
 }
-a::hover{
+
+a:hover{
     text-decoration: underline;
+}
+
+.atoms>h2{
+    text-align: center;
+    font-size: $h2-size;
+}
+
+.atom{
+    margin: 10px auto;
+    border: 3px solid $pencilColor;
+    border-radius: 5px;
+    padding: 10px 5px;
+    max-width: 960px;
+}
+//paper stuff
+
+.body-text{
+    @include body-text();
+}
+
+.paper{
+    background-image: repeating-linear-gradient()
 }
