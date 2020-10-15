@@ -1,4 +1,4 @@
-@use 'variables';
+@import 'variables';
 
 @mixin set-font-weight ($font-weight: $fontWeight) {
     font-weight: $font-weight;
@@ -54,5 +54,12 @@ a:hover{
 }
 
 .paper{
-    background-image: repeating-linear-gradient()
+    background-color: $primary;
+    margin: 0 auto;
+    width: 90%;
+    height: 1100px;
+    box-shadow: $box-shadow;
+    background: repeating-linear-gradient(0deg, $accent1 18.5%, $transparent 19%, $transparent 23%),
+    linear-gradient(90deg, $transparent 7%, rgba(255, 98, 62, 1) 7%, $transparent 7.5%);
+    
 }

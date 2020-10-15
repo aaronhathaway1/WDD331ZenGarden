@@ -2,6 +2,7 @@
 $primary: #FFFFFF;
 $accent1: #9BDCF8;
 $accent2: #EE6358;
+$transparent: rgba(255, 255, 255, 0);
 $pencilColor: #515151;
 $penColor: #000000;
 $linkColor: #C90909;
@@ -12,6 +13,7 @@ $bodyFont: 'Architects Daughter', cursive;
 $headerFont: 'Permanent Marker', cursive;
 $stickyFont: 'Caveat Brush', cursive;
 $fontWeight: 600;
+$box-shadow: 4px 4px 20px -10px $pencilColor;
 
 //Aaron, please fill these in with whatever the font sizes are going to be, for consistency. These are just placeholder values.
 $h1-size: 2.5em;
