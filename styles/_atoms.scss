@@ -1,4 +1,4 @@
-@import 'variables';
+@use 'variables';
 
 @mixin set-font-weight ($font-weight: $fontWeight) {
     font-weight: $font-weight;
@@ -59,7 +59,10 @@ a:hover{
     width: 90%;
     height: 1100px;
     box-shadow: $box-shadow;
-    background: repeating-linear-gradient(0deg, $accent1 18.5%, $transparent 19%, $transparent 23%),
-    linear-gradient(90deg, $transparent 7%, rgba(255, 98, 62, 1) 7%, $transparent 7.5%);
+    background: 
+    linear-gradient(90deg, $transparent 7%, $accent2 7%, $transparent 7.5%),
+    linear-gradient(to top, $transparent 49%, $transparent 90%, $primary 60%),
+    repeating-linear-gradient(0deg, $accent1 18.5%, $transparent 19%, $transparent 22%);
+    
     
 }
