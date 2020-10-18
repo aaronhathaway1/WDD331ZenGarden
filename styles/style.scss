@@ -72,3 +72,20 @@ main{
 .sticky-two{
     background-color: $stickyNote2;
 }
+.button1{
+    background-image: url("./button\ 1.png");
+    width:350px;
+    height:200px;
+    background-repeat: no-repeat;
+}
+.button2{
+    background-image: url("./button\ 2.png");
+    width:350px;
+    height:200px;
+    background-repeat: no-repeat;
+}
+.sticky{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

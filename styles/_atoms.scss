@@ -60,6 +60,17 @@ a:hover{
     height: 1100px;
     box-shadow: $box-shadow;
     background: repeating-linear-gradient(0deg, $accent1 18.5%, $transparent 19%, $transparent 23%),
-    linear-gradient(90deg, $transparent 7%, rgba(255, 98, 62, 1) 7%, $transparent 7.5%);
-    
+    linear-gradient(90deg, $transparent 7%, rgba(255, 98, 62, 1) 7%, $transparent 7.5%);   
+}
+.stickyNoteBack1{
+    background-color:$stickyNote1;
+    width:13em;
+    height:13em;
+    box-shadow: 3px 15px 5px rgba(140,137,140,0.54);
+}
+.stickyNoteBack2{
+    background-color:$stickyNote2;
+    width:13em;
+    height:13em;
+    box-shadow: 3px 15px 5px rgba(140,137,140,0.54);
 }
