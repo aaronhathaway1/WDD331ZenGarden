@@ -72,3 +72,8 @@ main{
 .sticky-two{
     background-color: $stickyNote2;
 }
+.sticky{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
