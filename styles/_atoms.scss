@@ -66,3 +66,28 @@ a:hover{
     
     
 }
+
+.stickyNoteBack1{
+    background-color:$stickyNote1;
+    width:13em;
+    height:13em;
+    box-shadow: 3px 15px 5px rgba(140,137,140,0.54);
+}
+.stickyNoteBack2{
+    background-color:$stickyNote2;
+    width:13em;
+    height:13em;
+    box-shadow: 3px 15px 5px rgba(140,137,140,0.54);
+}
+.button1{
+    background-image: url("./button\ 1.png");
+    width:350px;
+    height:200px;
+    background-repeat: no-repeat;
+}
+.button2{
+    background-image: url("./button\ 2.png");
+    width:350px;
+    height:200px;
+    background-repeat: no-repeat;
+}
