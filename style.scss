@@ -1,0 +1,148 @@
+
+//small screen
+
+//layout
+html{
+    min-height: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(wood-591631.jpg);
+    background-size: contain;
+    height: 100%;
+}
+
+.page-wrapper{
+    max-width: 80%;
+    margin: 0 auto;
+    display: grid;
+    position: relative;
+}
+
+
+#zen-intro,
+#zen-explanation,
+#zen-participation,
+#zen-benefits,
+#zen-requirements,
+footer{
+    background-color: white;
+    height: 700px;
+    margin-bottom: 200px;    
+}
+
+
+.wrapper,
+.sidebar,
+.design-selection{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    overflow:hidden;
+}
+
+.design-selection ul li{
+    position: absolute;
+    display: block;
+    height: 125px;
+    width: 125px;
+    background-color: yellow;
+    box-shadow: 2px 15px 32px -8px rgba(0,0,0,0.75);
+}
+
+.design-selection ul li:nth-child(1){ //mid-century modern
+    top: 750px;
+    
+}
+
+.design-selection ul li:nth-child(2){ //garments
+    top: 725px;
+    left: 110px;
+}
+
+.design-selection ul li:nth-child(3){ //steel
+    top: 745px;
+    left: 275px;
+}
+
+.design-selection ul li:nth-child(4){ //apothecary
+    top: 1650px;
+    left: 25px;
+    
+}
+
+.design-selection ul li:nth-child(5){ //screen filler
+    top: 1635px;
+    left: 200px;
+}
+
+.design-selection ul li:nth-child(6){ //fountain kiss
+    top: 2535px;
+    left: 35px;
+}
+
+.design-selection ul li:nth-child(7){ //a robot named Jimmy 
+    top: 2565px;
+    left: 150px
+}
+
+.design-selection ul li:nth-child(8){ //verde moderna
+    top: 2535px;
+    left: 250px;
+}
+
+.select, .archives{
+    display: none;
+}
+
+.design-archives{
+    position: absolute;
+    width: 200px;
+    text-align: center;
+    top: 4800px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.design-archives nav{
+    margin: 0 auto;
+}
+
+.zen-resources{
+    position: absolute;
+    top: 5000px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 75px;
+    height: 200px;
+    padding-top: 50px;
+    padding-bottom: 600px;
+    justify-content: center;
+}
+
+footer a{
+    display: flex;
+    border: 1px solid grey;
+    width: 100px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;   
+}
+
+ul{
+    list-style:none;
+    padding: 0;
+}
+
