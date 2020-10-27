@@ -1,5 +1,5 @@
-@import 'variables' ; //variables are now global, and don't require anything in front.
-@import 'atoms';  // assumes file is named _atoms.scss
+@use 'variables' as * ; //variables are now global, and don't require anything in front.
+@use 'atoms' as a;  // assumes file is named _atoms.scss
 //@use 'molecules';
 //@use 'organisms' as o;  // can shorten the name if we like :)s
 
