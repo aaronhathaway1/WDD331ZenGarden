@@ -146,3 +146,20 @@ ul{
     padding: 0;
 }
 
+
+//doodle placement
+.preamble::after{
+    content: url(/styles/Fish.png);
+}
+.explanation::after{
+    content:url(/styles/Flower.png);
+}
+.participation::after{
+    content: url(/styles/Tree.png);
+}
+.benefits p::before{
+    content: url(/styles/SwirlySmall.png);
+}
+.benefits::after{
+    content: url(/styles/Swirly.png);
+}
