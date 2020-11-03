@@ -1,3 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat+Brush&family=Permanent+Marker&display=swap");
+h1 {
+  font-size: 2.5em;
+}
+
+h3, h4 {
+  font-weight: 300;
+  text-decoration: underline;
+}
+
+p {
+  margin: 0;
+  padding: .5em;
+  line-height: 1.6;
+  font-size: 1.2em;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.atoms > h2 {
+  text-align: center;
+  font-size: 2.2em;
+}
+
+.atom {
+  margin: 10px auto;
+  border: 3px solid #515151;
+  border-radius: 5px;
+  padding: 10px 5px;
+  max-width: 960px;
+}
+
+.body-text {
+  color: #515151;
+  font-family: "Architects Daughter", cursive;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.paper {
+  width: 90%;
+  margin: 0 auto;
+  height: 1100px;
+  -webkit-box-shadow: 4px 4px 20px -10px #515151;
+          box-shadow: 4px 4px 20px -10px #515151;
+  background: -webkit-gradient(linear, left top, right top, color-stop(7%, rgba(255, 255, 255, 0)), color-stop(7%, #EE6358), color-stop(7.5%, rgba(255, 255, 255, 0))), -webkit-gradient(linear, left bottom, left top, color-stop(49%, rgba(255, 255, 255, 0)), color-stop(90%, rgba(255, 255, 255, 0)), color-stop(60%, #FFFFFF)), repeating-linear-gradient(0deg, #9BDCF8 18.5%, #FFFFFF 19%, #FFFFFF 22%);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 7%, #EE6358 7%, rgba(255, 255, 255, 0) 7.5%), linear-gradient(to top, rgba(255, 255, 255, 0) 49%, rgba(255, 255, 255, 0) 90%, #FFFFFF 60%), repeating-linear-gradient(0deg, #9BDCF8 18.5%, #FFFFFF 19%, #FFFFFF 22%);
+}
+
+.stickyNoteBack1 {
+  background-color: #F359B7;
+  width: 13em;
+  height: 13em;
+  -webkit-box-shadow: 4px 4px 20px -10px #515151;
+          box-shadow: 4px 4px 20px -10px #515151;
+}
+
+.stickyNoteBack2 {
+  background-color: #F7EA5D;
+  width: 13em;
+  height: 13em;
+  -webkit-box-shadow: 3px 15px 5px rgba(140, 137, 140, 0.54);
+          box-shadow: 3px 15px 5px rgba(140, 137, 140, 0.54);
+}
+
+.button1 {
+  background-image: url("./button 1.png");
+  width: 350px;
+  height: 200px;
+  background-repeat: no-repeat;
+}
+
+.button2 {
+  background-image: url("./button 2.png");
+  width: 350px;
+  height: 200px;
+  background-repeat: no-repeat;
+}
+
 html {
   min-height: 100%;
   position: relative;
@@ -25,9 +110,13 @@ body {
 #zen-benefits,
 #zen-requirements,
 footer {
-  background-color: white;
-  height: 700px;
+  height: 1500px;
   margin-bottom: 200px;
+  padding-left: 5%;
+  -webkit-box-shadow: 4px 4px 20px -10px #515151;
+          box-shadow: 4px 4px 20px -10px #515151;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(49%, rgba(255, 255, 255, 0)), color-stop(90%, rgba(255, 255, 255, 0)), color-stop(60%, #FFFFFF)), repeating-linear-gradient(0deg, #9BDCF8 18.5%, #FFFFFF 18.8%, #FFFFFF 20.5%);
+  background: linear-gradient(to top, rgba(255, 255, 255, 0) 49%, rgba(255, 255, 255, 0) 90%, #FFFFFF 60%), repeating-linear-gradient(0deg, #9BDCF8 18.5%, #FFFFFF 18.8%, #FFFFFF 20.5%);
 }
 
 .wrapper,
@@ -46,47 +135,47 @@ footer {
   display: block;
   height: 125px;
   width: 125px;
-  background-color: yellow;
-  -webkit-box-shadow: 2px 15px 32px -8px rgba(0, 0, 0, 0.75);
-          box-shadow: 2px 15px 32px -8px rgba(0, 0, 0, 0.75);
+  background-color: #F7EA5D;
+  -webkit-box-shadow: 4px 4px 20px -10px #515151;
+          box-shadow: 4px 4px 20px -10px #515151;
 }
 
 .design-selection ul li:nth-child(1) {
-  top: 750px;
+  top: 1550px;
 }
 
 .design-selection ul li:nth-child(2) {
-  top: 725px;
+  top: 1525px;
   left: 110px;
 }
 
 .design-selection ul li:nth-child(3) {
-  top: 745px;
+  top: 1545px;
   left: 275px;
 }
 
 .design-selection ul li:nth-child(4) {
-  top: 1650px;
+  top: 3275px;
   left: 25px;
 }
 
 .design-selection ul li:nth-child(5) {
-  top: 1635px;
+  top: 3250px;
   left: 200px;
 }
 
 .design-selection ul li:nth-child(6) {
-  top: 2535px;
+  top: 4950px;
   left: 35px;
 }
 
 .design-selection ul li:nth-child(7) {
-  top: 2565px;
+  top: 4965px;
   left: 150px;
 }
 
 .design-selection ul li:nth-child(8) {
-  top: 2535px;
+  top: 4950px;
   left: 250px;
 }
 
@@ -110,7 +199,7 @@ footer {
 
 .zen-resources {
   position: absolute;
-  top: 5000px;
+  top: 9000px;
   text-align: center;
   left: 0;
   right: 0;
@@ -118,15 +207,20 @@ footer {
 }
 
 footer {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 1500px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding: 0 75px;
-  height: 200px;
-  padding-top: 50px;
-  padding-bottom: 600px;
+  padding-top: 170px;
+  padding-bottom: 1300px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
