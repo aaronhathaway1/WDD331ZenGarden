@@ -1,4 +1,4 @@
-@use 'variables';
+@import 'variables';
 
 @mixin set-font-weight ($font-weight: $fontWeight) {
     font-weight: $font-weight;
@@ -10,6 +10,19 @@
     font-family: $bodyFont;
     font-weight: $fontWeight;
     font-size: $regular-font-size;
+}
+
+@mixin paper-texture() {
+    
+    box-shadow: $box-shadow;
+    background: 
+    linear-gradient(90deg, $transparent 7%, $accent2 7%, $transparent 7.5%), //red line
+    linear-gradient(to top, $transparent 49%, $transparent 90%, $primary 60%), //top margin
+    repeating-linear-gradient(0deg, $accent1 18.5%, $primary 19%, $primary 22%); //blue lines
+    
+    
+    
+    
 }
 
 h1{
@@ -54,24 +67,17 @@ a:hover{
 }
 
 .paper{
-    background-color: $primary;
-    margin: 0 auto;
     width: 90%;
+    margin: 0 auto;
     height: 1100px;
-    box-shadow: $box-shadow;
-    background: 
-    linear-gradient(90deg, $transparent 7%, $accent2 7%, $transparent 7.5%),
-    linear-gradient(to top, $transparent 49%, $transparent 90%, $primary 60%),
-    repeating-linear-gradient(0deg, $accent1 18.5%, $transparent 19%, $transparent 22%);
-    
-    
+    @include paper-texture();
 }
 
 .stickyNoteBack1{
     background-color:$stickyNote1;
     width:13em;
     height:13em;
-    box-shadow: 3px 15px 5px rgba(140,137,140,0.54);
+    box-shadow: $box-shadow;
 }
 .stickyNoteBack2{
     background-color:$stickyNote2;

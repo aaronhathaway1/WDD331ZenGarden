@@ -1,3 +1,7 @@
+//NOTE: having trouble importing atoms and variables. Something to look into.
+@import 'styles/_atoms.scss';
+
+
 
 //SMALL SCREEN STYLES
 
@@ -28,9 +32,16 @@ body{
 #zen-benefits,
 #zen-requirements,
 footer{
-    background-color: white;
-    height: 700px;
-    margin-bottom: 200px;    
+    height: $page-height;
+    margin-bottom: 200px; 
+    //replace with atoms mixin...
+    padding-left: 5%;
+    box-shadow: $box-shadow;
+    background: 
+    linear-gradient(to top, $transparent 49%, $transparent 90%, $primary 60%), //top margin
+    repeating-linear-gradient(0deg, $accent1 18.5%, $primary 18.8%, $primary 20.5%); //blue lines
+
+
 }
 
 
@@ -50,48 +61,48 @@ footer{
     display: block;
     height: 125px;
     width: 125px;
-    background-color: yellow;
-    box-shadow: 2px 15px 32px -8px rgba(0,0,0,0.75);
+    background-color:$stickyNote2;
+    box-shadow: $box-shadow;
 }
 
 .design-selection ul li:nth-child(1){ //mid-century modern
-    top: 750px;
+    top: $page-height + 50px;
     
 }
 
 .design-selection ul li:nth-child(2){ //garments
-    top: 725px;
+    top: $page-height +25px;
     left: 110px;
 }
 
 .design-selection ul li:nth-child(3){ //steel
-    top: 745px;
+    top: $page-height + 45px;
     left: 275px;
 }
 
 .design-selection ul li:nth-child(4){ //apothecary
-    top: 1650px;
+    top: 2 * $page-height + 275px;
     left: 25px;
     
 }
 
 .design-selection ul li:nth-child(5){ //screen filler
-    top: 1635px;
+    top: 2 * $page-height + 250px;
     left: 200px;
 }
 
 .design-selection ul li:nth-child(6){ //fountain kiss
-    top: 2535px;
+    top: 3 * $page-height + 450px;
     left: 35px;
 }
 
 .design-selection ul li:nth-child(7){ //a robot named Jimmy 
-    top: 2565px;
+    top: 3 * $page-height + 465px;
     left: 150px
 }
 
 .design-selection ul li:nth-child(8){ //verde moderna
-    top: 2535px;
+    top: 3 * $page-height + 450px;
     left: 250px;
 }
 
@@ -115,19 +126,21 @@ footer{
 
 .zen-resources{
     position: absolute;
-    top: 5000px;
+    top: 9000px;
     text-align: center;
     left: 0;
     right: 0;
     margin: 0 auto;
 }
 footer{
+    box-sizing: border-box;
+    height: $page-height;
     display: flex;
     flex-wrap: wrap;
     padding: 0 75px;
-    height: 200px;
-    padding-top: 50px;
-    padding-bottom: 600px;
+    padding-top: ($page-height/10 + 20px);
+    padding-bottom: $page-height - 200px;
+    align-items: flex-start;
     justify-content: center;
 }
 
