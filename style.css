@@ -83,6 +83,14 @@ a:hover {
   background-repeat: no-repeat;
 }
 
+@font-face {
+  font-family: 'Tombats';
+  src: url("/styles/doodleFonts/Tombats-One.woff2") format("woff2"), url("/styles/doodleFonts/Tombats-One.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 html {
   min-height: 100%;
   position: relative;
@@ -248,22 +256,32 @@ ul {
 }
 
 .preamble::after {
-  content: url(/styles/Fish.png);
+  content: "B";
+  font-family: 'Tombats';
+  font-size: 8rem;
 }
 
 .explanation::after {
-  content: url(/styles/Flower.png);
+  content: "F";
+  font-family: 'Tombats';
+  font-size: 8rem;
 }
 
 .participation::after {
-  content: url(/styles/Tree.png);
+  content: "L";
+  font-family: 'Tombats';
+  font-size: 8rem;
 }
 
 .benefits p::before {
-  content: url(/styles/SwirlySmall.png);
+  content: "Q";
+  font-family: 'Tombats';
+  font-size: 8rem;
 }
 
 .benefits::after {
-  content: url(/styles/Swirly.png);
+  content: "V";
+  font-family: 'Tombats';
+  font-size: 8rem;
 }
 /*# sourceMappingURL=style.css.map */
