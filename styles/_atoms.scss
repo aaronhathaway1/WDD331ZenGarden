@@ -1,16 +1,9 @@
 @import 'variables';
+@import 'type';
 
-@mixin set-font-weight ($font-weight: $fontWeight) {
-    font-weight: $font-weight;
-    text-decoration: underline;
-}
 
-@mixin body-text () {
-    color: $pencilColor;
-    font-family: $bodyFont;
-    font-weight: $fontWeight;
-    font-size: $regular-font-size;
-}
+
+
 
 @mixin paper-texture() {
     
@@ -18,11 +11,7 @@
     background: 
     linear-gradient(90deg, $transparent 7%, $accent2 7%, $transparent 7.5%), //red line
     linear-gradient(to top, $transparent 49%, $transparent 90%, $primary 60%), //top margin
-    repeating-linear-gradient(0deg, $accent1 18.5%, $primary 19%, $primary 22%); //blue lines
-    
-    
-    
-    
+    repeating-linear-gradient(0deg, $accent1 18.5%, $primary 19%, $primary 22%); //blue lines   
 }
 
 h1{
