@@ -1,0 +1,33 @@
+@import 'variables';
+
+//This file is for mixins related to font for the zen garden styling.
+
+@mixin set-font-weight ($font-weight: $fontWeight) {
+    font-weight: $font-weight;
+    text-decoration: underline;
+}
+
+@mixin body-text () {
+    color: $pencilColor;
+    font-family: $bodyFont;
+    font-weight: $fontWeight;
+    font-size: $regular-font-size;
+    line-height:$line-height;
+}
+
+@mixin headings ($font-size) {
+    font-family: $headerFont;
+    font-size: $font-size;
+    font-weight: 200;
+    color: $pencilColor;
+    text-decoration: none;
+}
+
+@mixin sticky-note-type{
+    color: $penColor;
+    font-family: $stickyFont;
+    font-size: $sticky-font-size;
+    line-height: 1.2;
+    text-align: center;
+
+}
