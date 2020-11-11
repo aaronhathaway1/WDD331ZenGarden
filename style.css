@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat+Brush&family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat+Brush&family=Permanent+Marker&display=swap");
 h1 {
   font-size: 2.5em;
 }
@@ -41,6 +42,7 @@ a:hover {
   font-family: "Architects Daughter", cursive;
   font-weight: 600;
   font-size: 1.2em;
+  line-height: 1.6;
 }
 
 .paper {
@@ -136,6 +138,7 @@ footer {
   left: 0;
   right: 0;
   overflow: hidden;
+  z-index: -1;
 }
 
 .design-selection ul li {
@@ -283,5 +286,57 @@ ul {
   content: "V";
   font-family: 'Tombats';
   font-size: 8rem;
+}
+
+body {
+  color: #515151;
+  font-family: "Architects Daughter", cursive;
+  font-weight: 600;
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+h1 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 2.5em;
+  font-weight: 200;
+  color: #515151;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 2.2em;
+  font-weight: 200;
+  color: #515151;
+  text-decoration: none;
+}
+
+h3 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 2em;
+  font-weight: 200;
+  color: #515151;
+  text-decoration: none;
+}
+
+a {
+  color: #C90909;
+}
+
+a:hover {
+  color: #ce6969;
+}
+
+.design-selection ul li {
+  color: #000000;
+  font-family: "Caveat Brush", cursive;
+  font-size: 1em;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.design-selection ul li a {
+  color: #000000;
 }
 /*# sourceMappingURL=style.css.map */

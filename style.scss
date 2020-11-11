@@ -1,5 +1,6 @@
 //NOTE: having trouble importing atoms and variables. Something to look into.
 @import 'styles/_atoms.scss';
+
 @font-face {
     font-family: 'Tombats';
     src: url('/styles/doodleFonts/Tombats-One.woff2') format('woff2'),
@@ -23,6 +24,7 @@ body{
     background-image: url(wood-591631.jpg);
     background-size: contain;
     height: 100%;
+    
 }
 
 .page-wrapper{
@@ -61,6 +63,7 @@ footer{
     left:0;
     right:0;
     overflow:hidden;
+    z-index: -1;
 }
 
 .design-selection ul li{
@@ -192,4 +195,42 @@ ul{
     content: "V";
     font-family: 'Tombats';
     font-size: 8rem;
+}
+
+
+//Typography
+
+body{
+    @include body-text();
+}
+
+h1{
+    @include headings ($h1-size);
+}
+
+h2{
+    @include headings ($h2-size);
+}
+
+h3{
+    @include headings ($h3-size);
+}
+
+a{
+    color: $linkColor;
+}
+
+a:hover{
+    color: $linkHoverColor;
+
+}
+
+.design-selection ul li{
+    @include sticky-note-type();
+    
+}
+
+.design-selection ul li a{
+    color: $penColor;
+
 }

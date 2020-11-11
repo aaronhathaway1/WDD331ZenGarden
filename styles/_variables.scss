@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat+Brush&family=Permanent+Marker&display=swap');
+
+//colors
 $primary: #FFFFFF;
 $accent1: #9BDCF8;
 $accent2: #EE6358;
@@ -9,14 +11,26 @@ $linkColor: #C90909;
 $stickyNote1: #F359B7;
 $stickyNote2: #F7EA5D;
 $altColorText:#FFFFFF;
+$linkHoverColor: #ce6969;
+
+//fonts
 $bodyFont: 'Architects Daughter', cursive;
 $headerFont: 'Permanent Marker', cursive;
 $stickyFont: 'Caveat Brush', cursive;
-$fontWeight: 600;
-$box-shadow: 4px 4px 20px -10px $pencilColor;
+
+//layout
 $page-height: 1500px;
-//Aaron, please fill these in with whatever the font sizes are going to be, for consistency. These are just placeholder values.
+
+
+//type
 $h1-size: 2.5em;
 $h2-size: 2.2em;
 $h3-size: 2em;
 $regular-font-size: 1.2em;
+$sticky-font-size: 1em;
+
+$fontWeight: 600;
+$line-height: 1.6;
+
+//extra styles
+$box-shadow: 4px 4px 20px -10px $pencilColor;
