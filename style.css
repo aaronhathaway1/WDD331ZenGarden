@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat+Brush&family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat+Brush&family=Permanent+Marker&display=swap");
 h1 {
-  font-size: 2.667vw;
+  font-size: 5vw;
 }
 
 h3, h4 {
@@ -13,7 +13,7 @@ p {
   margin: 0;
   padding: .5em;
   line-height: 1.6;
-  font-size: 1.88vw;
+  font-size: 3.33vw;
 }
 
 a {
@@ -26,7 +26,7 @@ a:hover {
 
 .atoms > h2 {
   text-align: center;
-  font-size: 2.347vw;
+  font-size: 4vw;
 }
 
 .atom {
@@ -41,7 +41,7 @@ a:hover {
   color: #515151;
   font-family: "Architects Daughter", cursive;
   font-weight: 600;
-  font-size: 1.88vw;
+  font-size: 3.33vw;
   line-height: 1.6;
 }
 
@@ -120,13 +120,22 @@ body {
 #zen-benefits,
 #zen-requirements,
 footer {
-  height: 100vw;
-  margin-bottom: 13.333vw;
+  height: 250vw;
+  margin-bottom: 20.333vw;
   padding-left: 5%;
   -webkit-box-shadow: 0.267vw 0.267vw 1.333vw -0.667vw #515151;
           box-shadow: 0.267vw 0.267vw 1.333vw -0.667vw #515151;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(49%, rgba(255, 255, 255, 0)), color-stop(90%, rgba(255, 255, 255, 0)), color-stop(60%, #FFFFFF)), repeating-linear-gradient(0deg, #9BDCF8 18.5%, #FFFFFF 18.8%, #FFFFFF 20.5%);
   background: linear-gradient(to top, rgba(255, 255, 255, 0) 49%, rgba(255, 255, 255, 0) 90%, #FFFFFF 60%), repeating-linear-gradient(0deg, #9BDCF8 18.5%, #FFFFFF 18.8%, #FFFFFF 20.5%);
+}
+
+#zen-participation {
+  margin-bottom: 22.333vw;
+  margin-top: 25vw;
+}
+
+#zen-benefits {
+  margin-top: 30vw;
 }
 
 .wrapper,
@@ -144,59 +153,59 @@ footer {
 .design-selection ul li {
   position: absolute;
   display: block;
-  height: 8.333vw;
-  width: 8.333vw;
+  height: 16.333vw;
+  width: 16.333vw;
   background-color: #F7EA5D;
   -webkit-box-shadow: 0.267vw 0.267vw 1.333vw -0.667vw #515151;
           box-shadow: 0.267vw 0.267vw 1.333vw -0.667vw #515151;
-  font-size: 1.38vw;
+  font-size: 2.38vw;
 }
 
 .design-selection ul li:nth-child(1) {
-  top: 103.333vw;
+  top: 255.333vw;
 }
 
 .design-selection ul li:nth-child(2) {
-  top: 101.667vw;
-  left: 7.333vw;
-}
-
-.design-selection ul li:nth-child(3) {
-  top: 103vw;
+  top: 252.667vw;
   left: 18.333vw;
 }
 
+.design-selection ul li:nth-child(3) {
+  top: 254.5vw;
+  left: 36.533vw;
+}
+
 .design-selection ul li:nth-child(4) {
-  top: 218.333vw;
-  left: 1.667vw;
+  top: 529.333vw;
+  left: 2.667vw;
 }
 
 .design-selection ul li:nth-child(5) {
-  top: 216.667vw;
-  left: 13.333vw;
+  top: 525.667vw;
+  right: 2.667vw;
 }
 
 .design-selection ul li:nth-child(6) {
-  top: 330vw;
+  top: 802vw;
   left: 2.333vw;
 }
 
 .design-selection ul li:nth-child(7) {
-  top: 331vw;
-  left: 10vw;
+  top: 810vw;
+  left: 25vw;
 }
 
 .design-selection ul li:nth-child(8) {
-  top: 330vw;
-  left: 16.667vw;
+  top: 805vw;
+  left: 45.667vw;
 }
 
 .design-name {
-  font-size: 1.38vw;
+  font-size: 2.38vw;
 }
 
 .designer-name {
-  font-size: 1.38vw;
+  font-size: 2.38vw;
 }
 
 .select, .archives {
@@ -229,15 +238,15 @@ footer {
 footer {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  height: 100vw;
+  height: 250vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding: 0 5vw;
-  padding-top: 11.333vw;
-  padding-bottom: 86.667vw;
+  padding-top: 26.333vw;
+  padding-bottom: 236.667vw;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
@@ -302,13 +311,13 @@ body {
   color: #515151;
   font-family: "Architects Daughter", cursive;
   font-weight: 600;
-  font-size: 1.88vw;
+  font-size: 3.33vw;
   line-height: 1.6;
 }
 
 h1 {
   font-family: "Permanent Marker", cursive;
-  font-size: 2.667vw;
+  font-size: 5vw;
   font-weight: 200;
   color: #515151;
   text-decoration: none;
@@ -316,7 +325,7 @@ h1 {
 
 h2 {
   font-family: "Permanent Marker", cursive;
-  font-size: 2.347vw;
+  font-size: 4vw;
   font-weight: 200;
   color: #515151;
   text-decoration: none;
@@ -324,7 +333,7 @@ h2 {
 
 h3 {
   font-family: "Permanent Marker", cursive;
-  font-size: 2.133vw;
+  font-size: 3.5vw;
   font-weight: 200;
   color: #515151;
   text-decoration: none;
@@ -341,7 +350,7 @@ a:hover {
 .design-selection ul li {
   color: #000000;
   font-family: "Caveat Brush", cursive;
-  font-size: 1.88vw;
+  font-size: 3vw;
   line-height: 1.2;
   text-align: center;
 }
