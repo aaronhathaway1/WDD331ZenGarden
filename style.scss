@@ -42,15 +42,6 @@ body {
 #zen-requirements,
 footer {
     height: $page-height;
-<<<<<<< HEAD
-    margin-bottom: 13.333vw;
-    //replace with atoms mixin...
-    padding-left: 5%;
-    box-shadow: $box-shadow;
-    background:
-        linear-gradient(to top, $transparent 49%, $transparent 90%, $primary 60%), //top margin
-        repeating-linear-gradient(0deg, $accent1 18.5%, $primary 18.8%, $primary 20.5%); //blue lines
-=======
     margin-bottom: 20.333vw; 
     //replace with atoms mixin...
     padding-left: 5%;
@@ -59,7 +50,6 @@ footer {
     linear-gradient(to top, $transparent 49%, $transparent 90%, $primary 60%), //top margin
     repeating-linear-gradient(0deg, $accent1 18.5%, $primary 18.8%, $primary 20.5%); //blue lines
 }
->>>>>>> 6e27b4f5105dbff995ac87790accf2752ca19a86
 
 #zen-participation{
     margin-bottom:22.333vw;
@@ -86,20 +76,13 @@ footer {
 .design-selection ul li {   //sticky notes
     position: absolute;
     display: block;
-<<<<<<< HEAD
-    height: $small-sticky-size;
-    width: $small-sticky-size;
-    background-color: $stickyNote2;
-=======
     height: 16.333vw;
     width: 16.333vw;
     background-color:$stickyNote2;
->>>>>>> 6e27b4f5105dbff995ac87790accf2752ca19a86
     box-shadow: $box-shadow;
     font-size: $small-font-size;
 }
 
-<<<<<<< HEAD
 .design-selection ul li:nth-child(1) {
     //mid-century modern
     top: $page-height + 3.333vw;
@@ -147,7 +130,6 @@ footer {
     //verde moderna
     top: 3 * $page-height + 30vw;
     left: 16.667vw;
-=======
 .design-selection ul li:nth-child(1){ //mid-century modern
     top: $page-height + 5.333vw;
     
@@ -187,7 +169,6 @@ footer {
 .design-selection ul li:nth-child(8){ //verde moderna
     top: 3.1 * $page-height + 30vw;
     left: 45.667vw;
->>>>>>> 6e27b4f5105dbff995ac87790accf2752ca19a86
 }
 
 .design-name {
