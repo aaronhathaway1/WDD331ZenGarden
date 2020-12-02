@@ -70,7 +70,6 @@ footer {
     left: 0;
     right: 0;
     overflow: hidden;
-    z-index: -1;
 }
 
 .design-selection ul li {   //sticky notes
@@ -189,7 +188,7 @@ footer {
     position: absolute;
     width: 13.333vw;
     text-align: center;
-    top: 320vw;
+    bottom:180vw;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -201,7 +200,7 @@ footer {
 
 .zen-resources {
     position: absolute;
-    top: 600vw;
+    bottom: 210vw;
     text-align: center;
     left: 0;
     right: 0;

@@ -147,7 +147,6 @@ footer {
   left: 0;
   right: 0;
   overflow: hidden;
-  z-index: -1;
 }
 
 .design-selection ul li {
@@ -159,6 +158,45 @@ footer {
   -webkit-box-shadow: 0.267vw 0.267vw 1.333vw -0.667vw #515151;
           box-shadow: 0.267vw 0.267vw 1.333vw -0.667vw #515151;
   font-size: 2.38vw;
+}
+
+.design-selection ul li:nth-child(1) {
+  top: 253.333vw;
+}
+
+.design-selection ul li:nth-child(2) {
+  top: 251.667vw;
+  left: 7.333vw;
+}
+
+.design-selection ul li:nth-child(3) {
+  top: 253vw;
+  left: 18.333vw;
+}
+
+.design-selection ul li:nth-child(4) {
+  top: 518.333vw;
+  left: 1.667vw;
+}
+
+.design-selection ul li:nth-child(5) {
+  top: 516.667vw;
+  left: 13.333vw;
+}
+
+.design-selection ul li:nth-child(6) {
+  top: 780vw;
+  left: 2.333vw;
+}
+
+.design-selection ul li:nth-child(7) {
+  top: 781vw;
+  left: 10vw;
+}
+
+.design-selection ul li:nth-child(8) {
+  top: 780vw;
+  left: 16.667vw;
 }
 
 .design-selection ul li:nth-child(1) {
@@ -217,7 +255,7 @@ footer {
   position: absolute;
   width: 13.333vw;
   text-align: center;
-  top: 320vw;
+  bottom: 180vw;
   left: 0;
   right: 0;
   margin: 0 auto;
@@ -229,7 +267,7 @@ footer {
 
 .zen-resources {
   position: absolute;
-  top: 600vw;
+  bottom: 210vw;
   text-align: center;
   left: 0;
   right: 0;
@@ -397,7 +435,7 @@ a:hover {
   .design-selection ul li {
     height: 11.333vw;
     width: 11.333vw;
-    margin: 10px;
+    margin: 8vw;
   }
   .design-selection ul {
     display: -ms-grid;
@@ -432,7 +470,7 @@ a:hover {
     -ms-grid-row: 3;
     -ms-grid-row-span: 1;
     grid-row: 3/4;
-    margin-left: 40px;
+    margin-left: 32vw;
   }
   .design-selection ul li:nth-child(5) {
     -ms-grid-row: 5;
@@ -441,7 +479,7 @@ a:hover {
     -ms-grid-column: 6;
     -ms-grid-column-span: 5;
     grid-column: 6/11;
-    margin-left: -30px;
+    margin-left: -24vw;
   }
   .design-selection ul li:nth-child(6) {
     -ms-grid-row: 6;
@@ -457,7 +495,7 @@ a:hover {
     -ms-grid-row: 9;
     -ms-grid-row-span: 2;
     grid-row: 9/11;
-    margin-left: 30px;
+    margin-left: 24vw;
   }
 }
 /*# sourceMappingURL=style.css.map */
