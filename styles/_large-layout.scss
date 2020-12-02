@@ -1,0 +1,109 @@
+//layout for larger screens
+@media screen and (min-width: 1000px) {
+
+    //reset positioning
+    html,
+    .page-wrapper,
+    .wrapper,
+    .sidebar,
+    .design-selection,
+    .design-archives,
+    .zen-resources,
+    .design-selection ul li{
+        position: static;
+    }
+
+    .page-wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .intro, .main{
+        grid-column: 1/2;
+        
+    }
+
+    .sidebar{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+
+    .design-selection ul li{
+        height: $large-sticky-size;
+        width: $large-sticky-size;
+        margin: $sticky-margin;
+        
+    }
+
+    .design-selection ul{
+        display: grid;
+        grid-template-columns: repeat(10, 10%);
+        grid-template-rows: repeat(30, 10%);
+        
+    }
+
+    .design-selection ul li:nth-child(1) {
+        //mid-century modern
+        grid-column: 2/7;
+        
+    
+    }
+    
+    .design-selection ul li:nth-child(2) {
+        //garments
+        grid-column: 5/9;
+        grid-row: 2/4;
+    }
+    
+    .design-selection ul li:nth-child(3) {
+        //steel
+       grid-row: 8/10;
+       grid-column: 2/6;
+    }
+    
+    .design-selection ul li:nth-child(4) {
+        //apothecary
+        grid-row: 3/4;
+        margin-left:(4*$sticky-margin);
+        
+    
+    }
+    
+    .design-selection ul li:nth-child(5) {
+        //screen filler
+        grid-row: 5/7;
+        grid-column:6/11;
+        margin-left: (-3*$sticky-margin);
+    }
+    
+    .design-selection ul li:nth-child(6) {
+        //fountain kiss
+        grid-row: 6/8;
+    }
+    
+    .design-selection ul li:nth-child(7) {
+        //a robot named Jimmy 
+        grid-row: 7/9;
+    
+    }
+    
+    .design-selection ul li:nth-child(8) {
+        //verde moderna
+      grid-row: 9/11;
+      margin-left:(3*$sticky-margin);
+    }
+
+ 
+
+    //large screen design-related things
+    #zen-intro,
+#zen-explanation,
+#zen-participation,
+#zen-benefits,
+#zen-requirements,
+footer {
+    @include paper-texture();
+}
+   
+}
