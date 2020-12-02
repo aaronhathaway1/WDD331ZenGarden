@@ -31,3 +31,39 @@
     text-align: center;
 
 }
+
+body {
+    @include body-text();
+}
+
+h1 {
+    @include headings ($h1-size);
+
+}
+
+h2 {
+    @include headings ($h2-size);
+}
+
+h3 {
+    @include headings ($h3-size);
+}
+
+a {
+    color: $linkColor;
+}
+
+a:hover {
+    color: $linkHoverColor;
+
+}
+
+.design-selection ul li {
+    @include sticky-note-type();
+
+}
+
+.design-selection ul li a {
+    color: $penColor;
+
+}
