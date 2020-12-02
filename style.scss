@@ -407,5 +407,16 @@ a:hover {
       margin-left:(3*$sticky-margin);
     }
 
+ 
+
+    //large screen design-related things
+    #zen-intro,
+#zen-explanation,
+#zen-participation,
+#zen-benefits,
+#zen-requirements,
+footer {
+    @include paper-texture();
+}
    
 }
