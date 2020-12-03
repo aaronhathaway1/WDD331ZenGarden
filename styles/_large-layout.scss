@@ -43,77 +43,99 @@
         grid-row: 1/2;
     }
 
+    .design-selection nav{
+   
+        width: $sidebar-width;
+    }
+
+    .design-selection ul {
+        height: 100%;
+        width: $sidebar-width;
+        margin-left: 20px;
+        // display: grid;
+        // grid-template-columns: repeat(10, 1fr);
+        // grid-template-rows: repeat(60, 1fr);
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
 
     .design-selection ul li {
         height: $large-sticky-size;
         width: $large-sticky-size;
         margin: $sticky-margin;
         font-size:$sticky-large-font-size;
+
+        &:nth-child(1) {
+            //mid-century modern
+            // grid-column: 2/7;
+            // grid-row: 1/2;
+            content: '';
+    
+    
+        }
+    
+        &:nth-child(2) {
+            //garments
+            // grid-column: 5/9;
+            // grid-row: 2/4;
+            margin-top: $sticky-margin*15;
+            margin-left: $sticky-margin*-5;
+        }
+    
+        &:nth-child(3) {
+            //steel
+            // grid-row: 8/10;
+            // grid-column: 2/6;
+            margin-top: $sticky-margin*-6;
+        }
+    
+        &:nth-child(4) {
+            //apothecary
+            // grid-row: 3/4;
+            margin-left: (-14*$sticky-margin);
+            margin-top: $sticky-margin*4;
+    
+    
+        }
+    
+        &:nth-child(5) {
+            //screen filler
+            // grid-row: 5/7;
+            // grid-column: 6/11;
+            margin-left: (-4*$sticky-margin);
+            margin-top: 13*$sticky-margin;
+        }
+    
+        &:nth-child(6) {
+            //fountain kiss
+            // grid-row: 6/8;
+            margin-top: -5*$sticky-margin;
+        }
+    
+        &:nth-child(7) {
+            //a robot named Jimmy 
+            // grid-row: 7/9;
+            content: '';
+        }
+    
+        &:nth-child(8) {
+            //verde moderna
+            // grid-row: 9/11;
+            margin-left: (5*$sticky-margin);
+            margin-top: $sticky-margin*-4;
+
+        }
     }
 
-    .design-selection ul {
-        display: grid;
-        grid-template-columns: repeat(10, 10%);
-        grid-template-rows: repeat(30, 10%);
 
-    }
 
     .design-name{
         font-size:$small-large-size;
     }
     .designer-name{
         font-size:$small-large-size;
-    }
-
-    .design-selection ul li:nth-child(1) {
-        //mid-century modern
-        grid-column: 2/7;
-
-
-    }
-
-    .design-selection ul li:nth-child(2) {
-        //garments
-        grid-column: 5/9;
-        grid-row: 2/4;
-    }
-
-    .design-selection ul li:nth-child(3) {
-        //steel
-        grid-row: 8/10;
-        grid-column: 2/6;
-    }
-
-    .design-selection ul li:nth-child(4) {
-        //apothecary
-        grid-row: 3/4;
-        margin-left: (4*$sticky-margin);
-
-
-    }
-
-    .design-selection ul li:nth-child(5) {
-        //screen filler
-        grid-row: 5/7;
-        grid-column: 6/11;
-        margin-left: (-3*$sticky-margin);
-    }
-
-    .design-selection ul li:nth-child(6) {
-        //fountain kiss
-        grid-row: 6/8;
-    }
-
-    .design-selection ul li:nth-child(7) {
-        //a robot named Jimmy 
-        grid-row: 7/9;
-
-    }
-
-    .design-selection ul li:nth-child(8) {
-        //verde moderna
-        grid-row: 9/11;
-        margin-left: (3*$sticky-margin);
     }
 
 

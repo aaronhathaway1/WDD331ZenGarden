@@ -2,8 +2,9 @@
 @import 'styles/_atoms.scss';
 @import 'styles/_variables.scss';
 @import 'styles/_type.scss';
-@import 'styles/_large-layout.scss';
 @import 'styles/_small-layout.scss';
+@import 'styles/_large-layout.scss';
+
 
 @font-face {
     font-family: 'Tombats';
@@ -25,7 +26,7 @@ html {
 }
 
 body {
-    background-image: url(wood-591631.jpg);
+    background-image: url(images/woodOptimized.jpg);
     background-size: contain;
     height: 100%;
 
