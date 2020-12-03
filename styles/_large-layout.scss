@@ -12,6 +12,20 @@
     .design-selection ul li {
         position: static;
     }
+    h1{
+        font-size:$h1-large-size;
+    }
+    h2{
+        font-size:$h2-large-size;
+    }
+    h3{
+        font-size:$h3-large-size;
+    }
+    p{
+        font-size: $regular-large-font-size;
+    }
+    
+
 
     .page-wrapper {
         display: grid;
@@ -34,7 +48,7 @@
         height: $large-sticky-size;
         width: $large-sticky-size;
         margin: $sticky-margin;
-
+        font-size:$sticky-large-font-size;
     }
 
     .design-selection ul {
@@ -42,6 +56,13 @@
         grid-template-columns: repeat(10, 10%);
         grid-template-rows: repeat(30, 10%);
 
+    }
+
+    .design-name{
+        font-size:$small-large-size;
+    }
+    .designer-name{
+        font-size:$small-large-size;
     }
 
     .design-selection ul li:nth-child(1) {

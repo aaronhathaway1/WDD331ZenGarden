@@ -202,6 +202,18 @@ a:hover {
   .design-selection ul li {
     position: static;
   }
+  h1 {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1em;
+  }
+  h3 {
+    font-size: 0.7em;
+  }
+  p {
+    font-size: 0.5em;
+  }
   .page-wrapper {
     display: -ms-grid;
     display: grid;
@@ -226,14 +238,21 @@ a:hover {
     height: 11.333vw;
     width: 11.333vw;
     margin: 8vw;
+    font-size: 0.75em;
   }
   .design-selection ul {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (10%);
+    -ms-grid-columns: (10%)[10];
         grid-template-columns: repeat(10, 10%);
-    -ms-grid-rows: (10%);
+    -ms-grid-rows: (10%)[30];
         grid-template-rows: repeat(30, 10%);
+  }
+  .design-name {
+    font-size: 0.75em;
+  }
+  .designer-name {
+    font-size: 0.75em;
   }
   .design-selection ul li:nth-child(1) {
     -ms-grid-column: 2;
@@ -552,14 +571,13 @@ footer {
   overflow: hidden;
 }
 
-.design-name {
-  font-size: 2.38vw;
+/*.design-name {
+    font-size: $small-font-size;
 }
 
 .designer-name {
-  font-size: 2.38vw;
-}
-
+    font-size: $small-font-size;
+}*/
 .select,
 .archives {
   display: none;
