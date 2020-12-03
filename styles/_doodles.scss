@@ -1,0 +1,32 @@
+//doodle placement
+.preamble::after {
+    content: "B";
+    font-family: 'Tombats';
+    font-size: 18.533vw;
+}
+
+.explanation::after {
+    content: "F";
+    font-family: 'Tombats';
+    font-size: 18.533vw;
+}
+
+.participation::after {
+    content: "L";
+    font-family: 'Tombats';
+    font-size: 18.533vw;
+}
+
+.benefits p::before {
+    content: "Q";
+    font-family: 'Tombats';
+    font-size: 8.533vw;
+    float: left;
+}
+
+.benefits::after {
+    content: "V";
+    font-family: 'Tombats';
+    font-size: 18.533vw;
+}
+

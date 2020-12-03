@@ -5,13 +5,20 @@
 
 
 
-@mixin paper-texture() {
-    
+@mixin paper-texture-large() {
     box-shadow: $box-shadow;
     background: 
     linear-gradient(90deg, $transparent 7%, $accent2 7%, $transparent 7.5%), //red line
     linear-gradient(to top, $transparent 49%, $transparent 90%, $primary 60%), //top margin
-    repeating-linear-gradient(0deg, $accent1 18.5%, $primary 19%, $primary 22%); //blue lines   
+    repeating-linear-gradient(0deg, $accent1 18.5%, $primary 19%, $primary 20%); //blue lines 
+    
+}
+
+@mixin paper-texture-small() {
+    box-shadow: $box-shadow;
+    background: 
+    linear-gradient(to top, $transparent 49%, $transparent 90%, $primary 60%), //top margin
+    repeating-linear-gradient(0deg, $accent1 18.5%, $primary 18.8%, $primary 20.5%); //blue lines
 }
 
 h1{
@@ -72,7 +79,7 @@ a:hover{
     background-color:$stickyNote2;
     width:13em;
     height:13em;
-    box-shadow: 3px 15px 5px rgba(140,137,140,0.54);
+    box-shadow: $box-shadow;
 }
 .button1{
     background-image: url("./button\ 1.png");

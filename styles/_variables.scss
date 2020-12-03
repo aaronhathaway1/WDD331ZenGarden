@@ -13,18 +13,20 @@ $stickyNote2: #F7EA5D;
 $altColorText:#FFFFFF;
 $linkHoverColor: #ce6969;
 
-//fonts
+//layout
+$page-height: 250vw;
+$page-height-large: 150vw;
+$sticky-margin: 50px;
+$small-sticky-size: 8.333vw;
+$large-sticky-size: 11.333vw;
+$sticky-margin: 10px; //this is what will be multiplied by to place the sticky notes in large view
+$sidebar-width: 33vw;
+
+//type
 $bodyFont: 'Architects Daughter', cursive;
 $headerFont: 'Permanent Marker', cursive;
 $stickyFont: 'Caveat Brush', cursive;
-
 $fontWeight: 600;
-//Aaron, please fill these in with whatever the font sizes are going to be, for consistency. These are just placeholder values.
-
-//layout
-$page-height: 250vw;
-$sticky-margin: 50px;
-//type
 $h1-size: 5vw;
 $h1-large-size:1.5em;
 $h2-size: 4vw;
@@ -37,14 +39,10 @@ $small-font-size: 2.380vw;
 $small-large-size:.75em;
 $sticky-font-size: 3vw;
 $sticky-large-font-size:.75em;
-
 $fontWeight: 600;
 $line-height: 1.6;
 
 //extra styles
 $box-shadow: 0.267vw 0.267vw 1.333vw -0.667vw $pencilColor;
-$small-sticky-size: 8.333vw;
-$large-sticky-size: 11.333vw;
-$sticky-margin: 10px; //this is what will be multiplied by to place the sticky notes in large view
-$sidebar-width: 33vw;
+
 
