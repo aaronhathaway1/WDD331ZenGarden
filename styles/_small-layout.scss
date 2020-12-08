@@ -128,7 +128,7 @@ footer {
     position: absolute;
     width: 13.333vw;
     text-align: center;
-    top: 320vw;
+    top: 1410vw;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -140,7 +140,7 @@ footer {
 
 .zen-resources {
     position: absolute;
-    top: 600vw;
+    top: 1450vw;
     text-align: center;
     left: 0;
     right: 0;
@@ -230,59 +230,4 @@ footer {
     overflow: hidden;
 }
 
-
-.select,
-.archives {
-    display: none;
-}
-
-.design-archives {
-    position: absolute;
-    width: 13.333vw;
-    text-align: center;
-    bottom:180vw;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-}
-
-.design-archives nav {
-    margin: 0 auto;
-}
-
-.zen-resources {
-    position: absolute;
-    bottom: 210vw;
-    text-align: center;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-}
-
-footer {
-    box-sizing: border-box;
-    height: $page-height;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 5vw;
-    padding-top: ($page-height/10 + 1.333vw);
-    padding-bottom: $page-height - 13.333vw;
-    align-items: flex-start;
-    justify-content: center;
-}
-
-footer a {
-    display: flex;
-    border: 0.067vw solid grey;
-    width: 6.667vw;
-    height: 2.667vw;
-    align-items: center;
-    justify-content: center;
-    margin: 0.667vw;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-}
 
