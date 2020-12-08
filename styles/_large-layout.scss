@@ -8,8 +8,6 @@
     .wrapper,
     .sidebar,
     .design-selection,
-    .design-archives,
-    .zen-resources,
     .design-selection ul li {
         position: static;
     }
@@ -151,6 +149,17 @@
     footer {
         @include paper-texture-large;
         height: $page-height-large;
+    }
+
+    .design-archives{
+
+        top: 14020px;
+        right: 300px;
+    }
+
+    .zen-resources{
+        top: 14500px;
+        right: 300px;
     }
 
 }
