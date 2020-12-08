@@ -1,6 +1,6 @@
 //layout for larger screens
 @import "atoms";
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1150px) {
 
     //reset positioning
     html,
@@ -78,6 +78,10 @@
         grid-row: 1/2;
     }
 
+    .design-selection{
+        width: 110%;
+    }
+
     .design-selection nav{
    
         width: $sidebar-width;
@@ -92,6 +96,8 @@
         // grid-template-rows: repeat(60, 1fr);
         display: flex;
         flex-wrap: wrap;
+        margin-right: 80px;
+        margin-left: 0;
 
     }
 
@@ -101,6 +107,7 @@
         width: $large-sticky-size;
         margin: $sticky-margin;
         font-size:$sticky-large-font-size;
+
 
         &:nth-child(1) {
             //mid-century modern
@@ -139,7 +146,7 @@
             //screen filler
             // grid-row: 5/7;
             // grid-column: 6/11;
-            margin-left: (-4*$sticky-margin);
+            margin-left: (-6*$sticky-margin);
             margin-top: 13*$sticky-margin;
         }
     
