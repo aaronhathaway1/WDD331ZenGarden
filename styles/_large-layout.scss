@@ -118,6 +118,7 @@
         &:nth-child(7) {
             //a robot named Jimmy 
             // grid-row: 7/9;
+            margin-right: $sticky-margin*8;
             content: '';
         }
     
