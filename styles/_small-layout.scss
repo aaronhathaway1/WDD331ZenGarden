@@ -36,6 +36,28 @@ footer {
     repeating-linear-gradient(0deg, $accent1 18.5%, $primary 18.8%, $primary 20.5%); //blue lines
 }
 
+.intro{
+    div{
+        margin-top:4.5vw;
+    }
+    .preamble{
+        margin-top:2.7vw;
+    }
+}
+
+.explanation, .participation, .benefits, .requirements{
+    h3{
+        padding-top:5vw;
+    }
+    p{
+        margin-top:-.5vw;
+    }
+    p:nth-child(2){
+        margin-top:16vw;
+    }
+}
+
+
 #zen-participation{
     margin-bottom:22.333vw;
     margin-top:25vw;
