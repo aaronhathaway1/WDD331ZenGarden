@@ -183,9 +183,10 @@ footer {
 
 footer a {
     display: flex;
-    border: 0.067vw solid grey;
-    width: 6.667vw;
-    height: 2.667vw;
+    border: 3px solid $pencilColor;
+    border-radius:50px;
+    width: 11vw;
+    height: 4vw;
     align-items: center;
     justify-content: center;
     margin: 0.667vw;
