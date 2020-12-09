@@ -76,6 +76,7 @@
     .sidebar {
         grid-column: 2/3;
         grid-row: 1/2;
+        width: fit-content;
     }
 
     .design-selection{
@@ -83,21 +84,18 @@
     }
 
     .design-selection nav{
-   
         width: $sidebar-width;
+
     }
 
     .design-selection ul {
         height: 100%;
         width: $sidebar-width;
         margin-left: 20px;
-        // display: grid;
-        // grid-template-columns: repeat(10, 1fr);
-        // grid-template-rows: repeat(60, 1fr);
         display: flex;
         flex-wrap: wrap;
         margin-right: 80px;
-        margin-left: 0;
+
 
     }
 
