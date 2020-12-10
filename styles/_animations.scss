@@ -1,0 +1,100 @@
+.benefits p::before {
+
+}
+
+.benefits::after {
+
+}
+/* Buzz */  
+  @keyframes hvr-buzz {
+    50% {
+      -webkit-transform: translateX(3px) rotate(2deg);
+      transform: translateX(3px) rotate(2deg);
+    }
+  
+    100% {
+      -webkit-transform: translateX(-3px) rotate(-2deg);
+      transform: translateX(-3px) rotate(-2deg);
+    }
+  }
+  
+  /*************Preamble Doodle*******************/
+  .preamble::after  {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+  }
+  .preamble:hover:after, .preamble:focus:after, .preamble:active:after {
+    animation-name: hvr-buzz;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: none;
+  }
+
+
+  /*************Explanation Doodle*******************/
+  .explanation::after  {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+  }
+  .explanation:hover:after, .explanation:focus:after, .explanation:active:after {
+    animation-name: hvr-buzz;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: none;
+  }
+
+
+  /*************Participation Doodle*******************/
+  .participation::after  {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+  }
+  .participation:hover:after, .participation:focus:after, .participation:active:after {
+    animation-name: hvr-buzz;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: none;
+  }
+  
+
+
+
+  /*************Benefits Doodle*******************/
+  .benefits p::before  {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+  }
+  .benefits p:hover:before, .benefits p:focus:before, .benefits p:active:before {
+    animation-name: hvr-buzz;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: none;
+  }
+
+  .benefits::after  {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+  }
+  .benefits:hover:after, .benefits:focus:after, .benefits:active:after {
+    animation-name: hvr-buzz;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: none;
+  }
+
+
