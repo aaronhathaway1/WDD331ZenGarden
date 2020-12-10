@@ -179,17 +179,27 @@
     footer {
         @include paper-texture-large;
         height: $page-height-large;
+        padding-left: 90px;
+        padding-right: 20px;
+    }
+    
+    .explanation, .participation, .benefits, .requirements{
+        padding-top: 9.5rem;
     }
 
+
+    footer{
+        @include paper-texture-large;
+    }
     .design-archives{
         font-size: $h3-large-size;
-        top: $page-height*3.682;
+        top: $page-height*3.782;
         right: 33%;
     }
 
     .zen-resources{
         font-size: $h3-large-size;
-        top: ($page-height*3.7) + 15vw;
+        top: ($page-height*3.782) + 15vw;
         right: 33%;
     }
 
