@@ -110,8 +110,6 @@
 
         &:nth-child(1) {
             //mid-century modern
-            // grid-column: 2/7;
-            // grid-row: 1/2;
             content: '';
     
     
@@ -119,22 +117,17 @@
     
         &:nth-child(2) {
             //garments
-            // grid-column: 5/9;
-            // grid-row: 2/4;
             margin-top: $sticky-margin*15;
             margin-left: $sticky-margin*-5;
         }
     
         &:nth-child(3) {
             //steel
-            // grid-row: 8/10;
-            // grid-column: 2/6;
             margin-top: $sticky-margin*-6;
         }
     
         &:nth-child(4) {
             //apothecary
-            // grid-row: 3/4;
             margin-left: (-14*$sticky-margin);
             margin-top: $sticky-margin*4;
     
@@ -143,28 +136,23 @@
     
         &:nth-child(5) {
             //screen filler
-            // grid-row: 5/7;
-            // grid-column: 6/11;
             margin-left: (-6*$sticky-margin);
             margin-top: 13*$sticky-margin;
         }
     
         &:nth-child(6) {
             //fountain kiss
-            // grid-row: 6/8;
             margin-top: -5*$sticky-margin;
         }
     
         &:nth-child(7) {
             //a robot named Jimmy 
-            // grid-row: 7/9;
             margin-right: $sticky-margin*8;
             content: '';
         }
     
         &:nth-child(8) {
             //verde moderna
-            // grid-row: 9/11;
             margin-left: (5*$sticky-margin);
             margin-top: $sticky-margin*-4;
 
@@ -194,14 +182,15 @@
     }
 
     .design-archives{
-
-        top: 14020px;
-        right: 300px;
+        font-size: $h3-large-size;
+        top: $page-height*3.682;
+        right: 33%;
     }
 
     .zen-resources{
-        top: 14500px;
-        right: 300px;
+        font-size: $h3-large-size;
+        top: ($page-height*3.7) + 15vw;
+        right: 33%;
     }
 
 }

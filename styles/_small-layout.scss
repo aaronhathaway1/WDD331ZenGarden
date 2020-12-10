@@ -182,6 +182,7 @@ footer {
 }
 
 footer a {
+    font-size: $small-font-size;
     display: flex;
     border: 3px solid $pencilColor;
     border-radius:50px;
