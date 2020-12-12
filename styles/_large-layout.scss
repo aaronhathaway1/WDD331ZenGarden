@@ -10,6 +10,7 @@
     .design-selection,
     .design-selection ul li {
         position: static;
+        padding-top: 0;
     }
 
 
@@ -37,19 +38,20 @@
     
     .explanation, .participation, .benefits, .requirements{
         h3{
-            padding-top:5rem;
+            padding-top: 6rem;
             margin-left:1.2rem;
         }
         p{
-            margin-top:-1.2rem;
             margin-left:1.2rem;
         }
         p:nth-child(2){
-            margin-top:4rem;
+            margin-top: 0;
         }
     }
     
-
+    .benefits{
+        height: $page-height-large*.2;
+    }
 
     .page-wrapper {
         display: grid;
@@ -151,24 +153,22 @@
         padding-left: 90px;
         padding-right: 20px;
     }
-    
-    .explanation, .participation, .benefits, .requirements{
-        padding-top: 9.5rem;
-    }
 
 
     footer{
         @include paper-texture-large;
+        align-content: flex-start;
+        padding-top: 10rem;
     }
 
     .design-archives{
-        top: $page-height*3.782;
+        top: $page-height*2.58;
         right: 33%;
     }
 
     .zen-resources{
         font-size: $h3-large-size;
-        top: ($page-height*3.782) + 15vw;
+        top: ($page-height*2.58) + 18vw;
         right: 33%;
     }
 

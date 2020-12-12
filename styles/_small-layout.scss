@@ -28,7 +28,6 @@ body {
 footer {
     height: $page-height;
     margin-bottom: 20.333vw; 
-    //replace with atoms mixin...
     padding-left: 5%;
     box-shadow: $box-shadow;
     background: 
@@ -47,7 +46,7 @@ footer {
 
 .explanation, .participation, .benefits, .requirements{
     h3{
-        padding-top:5vw;
+        padding-top: $small-screen-top-of-page-padding;
     }
     p{
         margin-top:-.5vw;
@@ -164,8 +163,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     padding: 0 5vw;
-    padding-top: ($page-height/10 + 1.333vw);
-    padding-bottom: $page-height - 13.333vw;
+    padding-top: $small-screen-top-of-page-padding;
     align-items: flex-start;
     justify-content: center;
 }
@@ -179,6 +177,7 @@ footer a {
     align-items: center;
     justify-content: center;
     margin: 0.667vw;
+    z-index: 5;
 }
 
 ul {
