@@ -7,20 +7,20 @@
     }
   
     100% {
-      -webkit-transform: translateX(-3px) rotate(-2deg);
+      -webkit-transform: translateX(-3px) rotate(-3deg);
       transform: translateX(-3px) rotate(-2deg);
     }
   }
   
   /*************Preamble Doodle*******************/
-  .preamble::after  {
+  .preamble::after {
     display: inline-block;
     vertical-align: middle;
     transform: translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     backface-visibility: hidden;
   }
-  .preamble:hover:after, .preamble:focus:after, .preamble:active:after {
+  .preamble:hover::after, .summary > p + p:hover::after {
     animation-name: hvr-buzz;
     animation-duration: 0.5s;
     animation-timing-function: linear;
@@ -29,14 +29,15 @@
 
 
   /*************Explanation Doodle*******************/
-  .explanation::after  {
+  .explanation::after {
     display: inline-block;
     vertical-align: middle;
     transform: translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     backface-visibility: hidden;
   }
-  .explanation:hover:after, .explanation:focus:after, .explanation:active:after {
+  
+  .explanation:hover:after, .explanation > p:nth-of-type(1):hover::after, .zen-resources:hover::after{
     animation-name: hvr-buzz;
     animation-duration: 0.5s;
     animation-timing-function: linear;
