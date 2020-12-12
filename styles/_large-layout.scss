@@ -1,6 +1,6 @@
 //layout for larger screens
 @import "atoms";
-@media screen and (min-width: 1150px) {
+@media screen and (min-width: $large-breakpoint) {
 
     //reset positioning
     html,
@@ -11,18 +11,7 @@
     .design-selection ul li {
         position: static;
     }
-    h1{
-        font-size:$h1-large-size;
-    }
-    h2{
-        font-size:$h2-large-size;
-    }
-    h3{
-        font-size:$h3-large-size;
-    }
-    p{
-        font-size: $regular-large-font-size;
-    }
+
 
     .intro{
         h1{
@@ -105,19 +94,10 @@
         height: $large-sticky-size;
         width: $large-sticky-size;
         margin: $sticky-margin;
-        font-size:$sticky-large-font-size;
-
-
-        &:nth-child(1) {
-            //mid-century modern
-            content: '';
-    
-    
-        }
     
         &:nth-child(2) {
             //garments
-            margin-top: $sticky-margin*15;
+            margin-top: $sticky-margin*21;
             margin-left: $sticky-margin*-5;
         }
     
@@ -129,7 +109,7 @@
         &:nth-child(4) {
             //apothecary
             margin-left: (-14*$sticky-margin);
-            margin-top: $sticky-margin*4;
+            margin-top: $sticky-margin*7;
     
     
         }
@@ -137,7 +117,7 @@
         &:nth-child(5) {
             //screen filler
             margin-left: (-6*$sticky-margin);
-            margin-top: 13*$sticky-margin;
+            margin-top: 21*$sticky-margin;
         }
     
         &:nth-child(6) {
@@ -158,17 +138,6 @@
 
         }
     }
-
-
-
-    .design-name{
-        font-size:$small-large-size;
-    }
-    .designer-name{
-        font-size:$small-large-size;
-    }
-
-
 
     //large screen design-related things
     #zen-intro,
@@ -191,8 +160,8 @@
     footer{
         @include paper-texture-large;
     }
+
     .design-archives{
-        font-size: $h3-large-size;
         top: $page-height*3.782;
         right: 33%;
     }

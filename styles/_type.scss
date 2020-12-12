@@ -75,3 +75,49 @@ a:hover {
     color: $penColor;
 
 }
+
+.design-name {
+    font-size: $small-font-size;
+}
+
+.designer-name {
+    font-size: $small-font-size;
+}
+
+footer a{
+    font-size: $small-font-size;
+}
+
+//special type rules for large screen
+@media screen and (min-width: $large-breakpoint){
+
+    h1{
+        font-size:$h1-large-size;
+    }
+    h2{
+        font-size:$h2-large-size;
+    }
+    h3{
+        font-size:$h3-large-size;
+    }
+    p{
+        font-size: $regular-large-font-size;
+    }
+
+    .design-selection ul li{
+        font-size:$sticky-large-font-size;
+    }
+
+    .design-name{
+        font-size:$small-large-size;
+    }
+
+    .designer-name{
+        font-size:$small-large-size;
+    }
+
+    .design-archives{
+        font-size: $h3-large-size;
+    }
+    
+}

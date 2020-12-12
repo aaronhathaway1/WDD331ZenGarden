@@ -130,17 +130,6 @@ footer {
     }
 }
 
-
-
-
-.design-name {
-    font-size: $small-font-size;
-}
-
-.designer-name {
-    font-size: $small-font-size;
-}
-
 .select,
 .archives {
     display: none;
@@ -182,7 +171,6 @@ footer {
 }
 
 footer a {
-    font-size: $small-font-size;
     display: flex;
     border: 3px solid $pencilColor;
     border-radius:50px;
