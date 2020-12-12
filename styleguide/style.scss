@@ -1,7 +1,79 @@
-@import 'variables'; //variables are now global, and don't require anything in front.
-@import 'atoms';  // assumes file is named _atoms.scss
+ //variables are now global, and don't require anything in front.
+@import '../styles/atoms';  // assumes file is named _atoms.scss
 //@use 'molecules';
 //@use 'organisms' as o;  // can shorten the name if we like :)s
+h1{
+    font-size: $h1-size;
+}
+
+h3, h4{
+    @include set-font-weight(300);
+}
+
+p{
+    margin:0;
+    padding:.5em;
+    line-height:1.6;
+    font-size: $regular-font-size;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.atoms>h2{
+    text-align: center;
+    font-size: $h2-size;
+}
+
+.atom{
+    margin: 10px auto;
+    border: 3px solid $pencilColor;
+    border-radius: 5px;
+    padding: 10px 5px;
+    max-width: 960px;
+}
+//paper stuff
+
+.body-text{
+    @include body-text();
+}
+
+.paper{
+    width: 90%;
+    margin: 0 auto;
+    height: 1100px;
+    @include paper-texture-small();
+}
+
+.stickyNoteBack1{
+    background-color:$stickyNote1;
+    width:13em;
+    height:13em;
+    box-shadow: $box-shadow;
+}
+.stickyNoteBack2{
+    background-color:$stickyNote2;
+    width:13em;
+    height:13em;
+    box-shadow: $box-shadow;
+}
+.button1{
+    background-image: url("./button\ 1.png");
+    width:350px;
+    height:200px;
+    background-repeat: no-repeat;
+}
+.button2{
+    background-image: url("./button\ 2.png");
+    width:350px;
+    height:200px;
+    background-repeat: no-repeat;
+}
 
 *{
     box-sizing: border-box;
