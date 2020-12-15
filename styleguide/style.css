@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat+Brush&family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat+Brush&family=Permanent+Marker&display=swap");
+@font-face {
+  font-family: 'Tombats';
+  src: url("/styles/doodleFonts/Tombats-One.woff2") format("woff2"), url("/styles/doodleFonts/Tombats-One.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  color: #515151;
+  font-family: "Architects Daughter", cursive;
+  font-weight: 600;
+  font-size: 3.33vw;
+  line-height: 1.6;
+}
+
+h1 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 5vw;
+  font-weight: 200;
+  color: #515151;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 4vw;
+  font-weight: 200;
+  color: #515151;
+  text-decoration: none;
+}
+
+h3 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 3.5vw;
+  font-weight: 200;
+  color: #515151;
+  text-decoration: none;
+}
+
+a {
+  color: #C90909;
+}
+
+a:hover {
+  color: #ce6969;
+}
+
+.design-selection ul li {
+  color: #000000;
+  font-family: "Caveat Brush", cursive;
+  font-size: 3vw;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.design-selection ul li a {
+  color: #000000;
+}
+
+.design-name {
+  font-size: 2.88vw;
+}
+
+.designer-name {
+  font-size: 2.88vw;
+}
+
+footer a {
+  font-size: 2.88vw;
+}
+
+@media screen and (min-width: 1150px) {
+  h1 {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1em;
+  }
+  h3 {
+    font-size: 0.7em;
+  }
+  p {
+    font-size: 0.5em;
+  }
+  .design-selection ul li {
+    font-size: 0.75em;
+  }
+  .design-name {
+    font-size: 0.75em;
+  }
+  .designer-name {
+    font-size: 0.75em;
+  }
+  .design-archives {
+    font-size: 0.7em;
+  }
+}
+
+h1 {
+  font-size: 5vw;
+}
+
+h3, h4 {
+  font-weight: 300;
+  text-decoration: underline;
+}
+
+p {
+  margin: 0;
+  padding: .5em;
+  line-height: 1.6;
+  font-size: 3.33vw;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.atoms > h2 {
+  text-align: center;
+  font-size: 4vw;
+}
+
+.atom {
+  margin: 10px auto;
+  border: 3px solid #515151;
+  border-radius: 5px;
+  padding: 10px 5px;
+  max-width: 960px;
+}
+
+.body-text {
+  color: #515151;
+  font-family: "Architects Daughter", cursive;
+  font-weight: 600;
+  font-size: 3.33vw;
+  line-height: 1.6;
+}
+
+.paper {
+  width: 90%;
+  margin: 0 auto;
+  height: 1100px;
+  -webkit-box-shadow: 0.267vw 0.267vw 1.333vw -0.667vw #515151;
+          box-shadow: 0.267vw 0.267vw 1.333vw -0.667vw #515151;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(49%, rgba(255, 255, 255, 0)), color-stop(90%, rgba(255, 255, 255, 0)), color-stop(60%, #FFFFFF)), repeating-linear-gradient(0deg, #9BDCF8 18.5%, #FFFFFF 18.8%, #FFFFFF 20.5%);
+  background: linear-gradient(to top, rgba(255, 255, 255, 0) 49%, rgba(255, 255, 255, 0) 90%, #FFFFFF 60%), repeating-linear-gradient(0deg, #9BDCF8 18.5%, #FFFFFF 18.8%, #FFFFFF 20.5%);
+}
+
+.stickyNoteBack1 {
+  background-color: #F359B7;
+  width: 13em;
+  height: 13em;
+  -webkit-box-shadow: 0.267vw 0.267vw 1.333vw -0.667vw #515151;
+          box-shadow: 0.267vw 0.267vw 1.333vw -0.667vw #515151;
+}
+
+.stickyNoteBack2 {
+  background-color: #F7EA5D;
+  width: 13em;
+  height: 13em;
+  -webkit-box-shadow: 0.267vw 0.267vw 1.333vw -0.667vw #515151;
+          box-shadow: 0.267vw 0.267vw 1.333vw -0.667vw #515151;
+}
+
+.button1 {
+  background-image: url("./button 1.png");
+  width: 350px;
+  height: 200px;
+  background-repeat: no-repeat;
+}
+
+.button2 {
+  background-image: url("./button 2.png");
+  width: 350px;
+  height: 200px;
+  background-repeat: no-repeat;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+}
+
+body {
+  width: 80%;
+  margin: auto;
+  background-image: url("./Wood Background.jpg");
+}
+
+main {
+  background-color: #cfe5ec;
+  widows: 80%;
+  padding: 0.5em;
+  margin: auto;
+}
+
+.color-chart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.color-chart > div {
+  margin: 0;
+  padding: auto;
+  width: 25%;
+  height: 3em;
+}
+
+.headings-example {
+  font-family: "Permanent Marker", cursive;
+}
+
+.body-example {
+  font-family: "Architects Daughter", cursive;
+}
+
+.sticky-example {
+  font-family: "Caveat Brush", cursive;
+}
+
+.paper-background-color {
+  background-color: #FFFFFF;
+}
+
+.blue-lines {
+  background-color: #9BDCF8;
+}
+
+.red-lines {
+  background-color: #EE6358;
+}
+
+.pencil-color {
+  background-color: #515151;
+  color: #FFFFFF;
+}
+
+.pen-color {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.link-color {
+  background-color: #C90909;
+  color: #FFFFFF;
+}
+
+.sticky-one {
+  background-color: #F359B7;
+}
+
+.sticky-two {
+  background-color: #F7EA5D;
+}
+
+.sticky {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+/*# sourceMappingURL=style.css.map */
