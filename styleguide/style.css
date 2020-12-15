@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat+Brush&family=Permanent+Marker&display=swap");
 @font-face {
   font-family: 'Tombats';
-  src: url("/styles/doodleFonts/Tombats-One.woff2") format("woff2"), url("/styles/doodleFonts/Tombats-One.woff") format("woff");
+  src: url("./doodleFonts/Tombats-One.woff2") format("woff2"), url("./doodleFonts/Tombats-One.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
